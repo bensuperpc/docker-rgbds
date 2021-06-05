@@ -1,4 +1,4 @@
-name: docker-<<IMAGE_NAME>>
+name: docker-rgbds
 
 on:
   push:
@@ -17,7 +17,7 @@ on:
 
 jobs:
   image:
-    name: docker-<<IMAGE_NAME>>
+    name: docker-rgbds
     runs-on: ubuntu-20.04
     steps:
       - name: "📥 Checkout Code"

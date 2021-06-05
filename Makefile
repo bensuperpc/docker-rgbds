@@ -12,7 +12,8 @@
 #//  Modified: 04, June, 2021                                //
 #//  file: -                                                 //
 #//  -                                                       //
-#//  Source:                                                 //
+#//  Source: https://github.com/gbdev/rgbds                                                //
+#//			 https://github.com/KeetKhat/gameboy-coeur-dx
 #//          https://www.docker.com/blog/getting-started-with-docker-for-arm-on-linux/
 #//          https://schinckel.net/2021/02/12/docker-%2B-makefile/
 #//          https://www.padok.fr/en/blog/multi-architectures-docker-iot
@@ -21,7 +22,7 @@
 #//                                                          //
 #//////////////////////////////////////////////////////////////
 BASE_IMAGE := alpine:latest
-IMAGE_NAME := bensuperpc/<<IMAGE_NAME>>
+IMAGE_NAME := bensuperpc/rgbds
 DOCKERFILE := Dockerfile
 
 DOCKER := docker
