@@ -23,6 +23,13 @@ cd docker-rgbds
 ```sh
 ./compiler.sh make (where project to build)
 ```
+#### Exemple
+clone https://github.com/KeetKhat/gameboy-coeur-dx and go to gameboy-coeur-dx directory, after that :
+```sh
+../compiler.sh make -C src all
+```
+
+
 #### Build
 ```sh
 make linux/amd64 or make linux/arm64
