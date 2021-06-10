@@ -1,6 +1,6 @@
 # docker-rgbds
 
-### _gmaeboy compiler rgbds in docker_
+### _gameboy compiler rgbds in docker_
  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-jeffs-keyboard.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
 
 [![docker-rgbds](https://github.com/Bensuperpc/docker-rgbds/actions/workflows/main.yml/badge.svg)](https://github.com/Bensuperpc/docker-rgbds/actions/workflows/main.yml)
