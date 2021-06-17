@@ -52,8 +52,8 @@ push: all
 # https://github.com/linuxkit/linuxkit/tree/master/pkg/binfmt
 qemu:
 	export DOCKER_CLI_EXPERIMENTAL=enabled
-	$(DOCKER) run --rm --privileged linuxkit/binfmt:v0.8
-	$(DOCKER) buildx create --name mybuilder --driver docker-container --use
+	$(DOCKER) run --rm --privileged multiarch/qemu-user-static --reset -p yes
+	$(DOCKER) buildx create --name qemu_builder --driver docker-container --use
 	$(DOCKER) buildx inspect --bootstrap
 
 clean:
