@@ -1,0 +1,3 @@
+[submodule "rgbds"]
+	path = rgbds
+	url = https://github.com/gbdev/rgbds.git
